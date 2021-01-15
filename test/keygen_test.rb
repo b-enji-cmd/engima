@@ -30,4 +30,8 @@ class KeygenTest < Minitest::Test
 	def test_it_can_get_offset_from_date
 		assert_equal "3441", Keygen.get_offset("011521")
 	end
+
+	def test_it_can_provide_final_values
+		assert_equal [55, 32, 88, 43], Keygen.generate_shift("52842", "011521")
+	end
 end
