@@ -1,5 +1,4 @@
 require './test/test_helper'
-require 'pry'
 class KeygenTest < Minitest::Test
 
 	def setup
