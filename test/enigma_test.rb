@@ -20,4 +20,11 @@ class EnigmaTest < Minitest::Test
 		assert_instance_of Hash, actual
 		assert_equal "hello world", actual[:encryption]
 	end
+
+	def test_it_can_generate_random_values
+		today = mock
+		Date.expects(:today).returns(today)
+		today.expects(:strftime).returns("011721")
+		assert_equal "011721", @enigma.get_date
+	end
 end
