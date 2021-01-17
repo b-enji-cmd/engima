@@ -22,5 +22,9 @@ class Parser
   	write_data(@out_file,encrypted_message_hash[:encryption])
   end
 
+  def send_decryption
+  	decrypted_message_hash = @enigma.decrypt(@message,@key,@date)
+  	write_data(@out_file,decrypted_message_hash[:encryption])
+  end
 	
 end
