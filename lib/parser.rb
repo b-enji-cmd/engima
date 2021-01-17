@@ -13,6 +13,9 @@ class Parser
     @enigma =  Enigma.new
   end
 
-  
+  def write_data(output,data)
+    File.write(output,data)
+  end
+
 	
 end
