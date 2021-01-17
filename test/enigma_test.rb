@@ -14,4 +14,10 @@ class EnigmaTest < Minitest::Test
 		assert_instance_of Hash, actual
 		assert_equal "keder ohulw", actual[:encryption]
 	end
+
+	def test_it_can_decrypt
+		actual = @enigma.decrypt("keder ohulw","02715", "040895")
+		assert_instance_of Hash, actual
+		assert_equal "hello world", actual[:encryption]
+	end
 end
