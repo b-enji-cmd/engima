@@ -2,5 +2,5 @@ require './lib/parser'
 require 'pry'
 
 parser = Parser.new(ARGV)
-parser.send_encryption
+parser.send_decryption
 
