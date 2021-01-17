@@ -21,10 +21,15 @@ class EnigmaTest < Minitest::Test
 		assert_equal "hello world", actual[:encryption]
 	end
 
-	def test_it_can_generate_random_values
+	def test_it_can_generate_a_date
 		today = mock
 		Date.expects(:today).returns(today)
 		today.expects(:strftime).returns("011721")
 		assert_equal "011721", @enigma.get_date
+	end
+
+	def test_it_can_generate_random_number
+		actual = @enigma.random_key
+		assert_equal 5, actual.length
 	end
 end
