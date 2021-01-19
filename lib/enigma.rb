@@ -2,12 +2,11 @@ require "./lib/encoder"
 require "date"
 
 class Enigma
-	def get_date
+  def get_date
     Date.today.strftime("%m%d%y")
   end
 
-
-	def random_key
+  def random_key
     rand(99999).to_s.rjust(5, "0")
   end
 
