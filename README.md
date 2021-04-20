@@ -13,7 +13,7 @@ This repository was a solo project for the Turing School of Software and Design.
 
 ### Built With
 
-* [Rubys](https://ruby-doc.org)
+* [Ruby](https://ruby-doc.org)
 
 
 <!-- GETTING STARTED -->
