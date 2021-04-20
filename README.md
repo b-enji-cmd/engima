@@ -20,10 +20,11 @@ This repository was a solo project for the Turing School of Software and Design.
 ## Getting Started
 
 1. Clone this repo
-2. Write your plaintext message in `message.txt` 
+2. Create `message.txt` in root directory of project
+3. Write your plaintext message in `message.txt` 
 4. Run the script
 ```
-$ruby encrypt message.txt encoded.txt
+$ruby encrypt.rb message.txt encoded.txt
 ```
 ### Prerequisites
 
