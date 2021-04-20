@@ -26,6 +26,7 @@ This repository was a solo project for the Turing School of Software and Design.
 ```
 $ruby encrypt.rb message.txt encoded.txt
 ```
+5. Open `encoded.txt` to see your message 
 ### Prerequisites
 
 * Ruby 2.5.3
