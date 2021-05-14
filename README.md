@@ -31,6 +31,10 @@ $ruby encrypt.rb message.txt encoded.txt
 
 * Ruby 2.5.3
 
+### Reflection
+
+This being my final project for the first 6 weeks during my attendance at Turing, I took a lot of pride in having a slim and clean cut structure using concepts and topics that 
+had not been introduced to us. As well as more advanced ruby mechanics such as the `reduce` enumerable with the injection of modules. There were additional extensions which I could not manage to complete. One of those features was the ability to crack the internal calculation and mathematical process of how the messages are encoded. Overall I really enjoyed this project as it was related to cryptography and encryption, two fascinating concepts! 
 
 # Self assessment 
 | Functionality     | OOP | Ruby Convention | TDD |
